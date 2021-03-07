@@ -1,1 +1,8 @@
 //silence-is-golden
+@mixin fullBlock {
+    width: 100%;
+}
+
+.block-section {
+    @include fullBlock;
+}

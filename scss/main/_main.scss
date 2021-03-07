@@ -1,1 +1,71 @@
-//silence-is-golden
+    //silence-is-golden
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .choose {
+        background-image: url("../assets/section2photo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        min-height: 100%;
+        display: inline-block;
+        &_img1 {
+            position: absolute;
+            left: 65%;
+            top: 125%;
+        }
+        &_img2 {
+            position: absolute;
+            left: 73%;
+            top: 163%;
+            width: 350px;
+            height: 220px;
+        }
+    }
+    
+    .choose__content {
+        width: 59%;
+        margin-top: 16%;
+        margin-left: 5%;
+        &-title {
+            font-family: $aleo;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: $lineheight;
+            /* identical to box height, or 72% */
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+        &-txt {
+            font-family: $josefin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: $lineheight;
+            /* or 162% */
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.1em;
+            color: #E8E8E8;
+            margin-top: 5%;
+        }
+        &-btn {
+            margin-top: 50px;
+            width: 225px;
+            height: 60px;
+            color: $titleColor;
+            font-family: $aleo;
+            border: none;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+    
+    .button {
+        width: 225px;
+        height: 60px
+    }

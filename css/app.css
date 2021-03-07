@@ -276,10 +276,81 @@ h1 {
   color: #fff;
   display: block;
   padding: 15px;
-  text-decoration: none;
+  text-decoration: none !important;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.625em;
   color: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.choose {
+  background-image: url("../assets/section2photo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 100%;
+  display: inline-block;
+}
+.choose_img1 {
+  position: absolute;
+  left: 65%;
+  top: 125%;
+}
+.choose_img2 {
+  position: absolute;
+  left: 73%;
+  top: 163%;
+  width: 350px;
+  height: 220px;
+}
+
+.choose__content {
+  width: 59%;
+  margin-top: 16%;
+  margin-left: 5%;
+}
+.choose__content-title {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 1.625em;
+  /* identical to box height, or 72% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.choose__content-txt {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.625em;
+  /* or 162% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #E8E8E8;
+  margin-top: 5%;
+}
+.choose__content-btn {
+  margin-top: 50px;
+  width: 225px;
+  height: 60px;
+  color: #FFFFFF;
+  font-family: "Aleo";
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.button {
+  width: 225px;
+  height: 60px;
 }
